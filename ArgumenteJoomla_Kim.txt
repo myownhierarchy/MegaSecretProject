@@ -1,0 +1,13 @@
+1. Die Joomla! Extensions Directory (JED) bietet auf übersichtliche Weise viele Lösungen zu speziellen 
+	Aufgaben, stetig erweitert durch die Community (>7800 Erweiterungen)
+2. Das Joomla Application Framework macht es einfach für Entwickler, selber Erweiterungen
+	zur Lösung spezieller Probleme zu entwickeln
+3. Joomla ist nicht nur ein CMS, sondern auch ein Framework und verfügt über eine Menge nützlicher 
+	Libraries/Packages
+4. Mit Joomla Templates ist es einfach, für verschiedene Geräte zu entwickeln (T3 Template Framework z.B.).
+	Außerdem benutzt Joomla seit v. 3.3 das Twitter Bootstrap Framework (bzgl. mobile responsiveness).
+	Auch der Admin Bereich ist seit Joomla 3 Mobile-Friendly
+5. Joomla ist sicher (Passwort-Verschlüsselung (bcrypt Algorithmus), Zwei-Faktor-Authentifizierung 
+	(Googles YubiKey), Anti-Spam (Googles Recaptcha), ...)
+6. Mit der Access Control List (ACL) sind Registrierungen, Benutzer-Accounts, Content-Restriction etc
+	einfach zu verwalten
