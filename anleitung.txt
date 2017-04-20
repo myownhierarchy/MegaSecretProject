@@ -1,0 +1,4 @@
+-ordner joomla in xampp/htdocs
+-node.js runterladen und installieren
+-node.js command promt öffnen und zu easyrtc/ssl_server (über cd ... in das verzeichnis)
+-"node server.js" sollte dann den node.js-server starten
