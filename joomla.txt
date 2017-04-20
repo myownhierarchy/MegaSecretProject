@@ -1,6 +1,6 @@
-ï	meist genutzt (nach WordPress) -> erlernte F‰higkeiten sehr wahrscheinlich noch einmal zu gebrauchen
-ï	weit verbreitet -> groﬂe Community + Tutorials und Hilfe
-ï	gute Dokumentation
-ï	stark erweiterbar
-ï	hohe Benutzerfreundlichkeit
-- test
+‚Ä¢	meist genutzt (nach WordPress) -> erlernte F√§higkeiten sehr wahrscheinlich noch einmal zu gebrauchen
+‚Ä¢	weit verbreitet -> gro√üe Community + Tutorials und Hilfe
+‚Ä¢	gute Dokumentation
+‚Ä¢	stark erweiterbar
+‚Ä¢	hohe Benutzerfreundlichkeit
+- test2
