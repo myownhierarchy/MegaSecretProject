@@ -1,0 +1,102 @@
+﻿body{
+    font-family: "Times", serif;
+}
+
+h1,
+h2,
+h3{
+    font-family: "Times New Roman", serif;
+}
+
+.navbar{
+    margin-top: 36px;
+}
+header{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+p.sitetitle{
+    margin-top: 36px;
+    font-size: 42px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Times New Roman", serif;
+}
+main{
+    padding: 12px;
+}
+.sidebar,
+footer{
+    margin-bottom: 12px;
+}
+#sidebar-left-button{
+    display: none;
+    height:0px;
+    width:0px;
+    margin: 0px;
+    padding: 0px;
+    transform: rotate(90deg) ;
+}
+#expander{
+    width: 300px;
+}
+
+
+@media (max-width: 767px) {
+    #content{
+       /* margin-left:100px;*/
+    }
+    #sidebar-left{
+       display: none;
+    }
+    #sidebar-left-button{
+        display: block;
+
+    }
+}
+#close{
+    display: none;
+}
+
+    body{
+     /*  overflow: hidden;*/
+    }
+
+
+    /*------------MAXE---------------------*/
+    
+#demoContainer {
+    position:relative;
+    height:100%;
+}
+#connectControls {
+    float:left;
+    min-height:10%;
+    width:100%;
+    text-align:center;
+    border: 2px solid black;
+}
+#otherClients {
+    height:50%;
+    overflow-y:scroll;
+}
+#selfVideo {
+    width:100px;
+    max-width:25%;
+    position:absolute;
+    z-index:10;
+    border:2px solid white;
+    margin-left:10px;
+    margin-top:10px;
+}
+#videos{
+    
+}
+
+#callerVideo {
+    position:absolute;
+    max-width:100%
+}
+#acceptCallBox{
+    display:none;
+}

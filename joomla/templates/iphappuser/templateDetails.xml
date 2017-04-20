@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="2.5" type="template">
+    <name>iPhAppUser</name>
+    <creationDate>2017-04-14</creationDate>
+    <author>Thorben Hartmann</author>
+    <group>404</group>
+    <authorEmail>thorben.hartmann@stud.hs-flensburg.de</authorEmail>
+    <copyright>Thorben Hartmann(404) 2017</copyright>
+    <license>GNU/GPL</license>
+    <version>0.2.3</version>
+    <description>This template is used for the site, that's shown when you are logged in.
+        It's got a header, a sidebar at the left, a footer and a large space for the content.
+        The Sidebar will be disabled when you are use a mobile-phone.
+        You can pop it out when you click on the shown Button
+    </description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>favicon.ico</filename>
+        <filename>SidebarControl.js</filename>
+        <folder>css</folder>
+        <folder>img</folder>
+    </files>
+    <positions>
+        <position>header</position>
+        <position>sidebar-left</position>
+        <position>content</position>
+        <position>footer</position>
+    </positions>
+    <config>
+
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="buttonValue"
+                       class=""
+                       type="text"
+                       label="Value of the Sidebar Button"
+                       description="Value of the Button witch is shown on mobile phone" />
+
+                <field name="logoFile"
+                       class=""
+                       type="media"
+                       default=""
+                       label="Site Logo"
+                       description="Pick a site logo from the media library" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

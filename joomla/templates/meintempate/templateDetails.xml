@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="2.5" type="template">
+    <name>MeinTempate</name>
+    <creationDate>2017-04-10</creationDate>
+    <author>Thorben Hartmann</author>
+    <authorEmail>Thorben-Hartmann@t-online.de</authorEmail>
+    <authorUrl>www.google.de</authorUrl>
+    <copyright>Thorben Hartmann 2017</copyright>
+    <license>GNU/GPL</license>
+    <version>0.1.0</version>
+    <description>TestTemplate</description>
+    <files>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <folder>css</folder>
+    </files>
+    <positions>
+        <position>header</position>
+        <position>sidebar-left</position>
+        <position>content</position>
+        <position>footer</position>
+    </positions>
+    <config>
+        <fields name="params">
+            <fieldset name="advanced">
+                <field name="googleFontName"
+                    class=""
+                    type="text"
+                    default="Cardo|Source+Sans+Pro"
+                    label="Google Font"
+                    description=
+                        "Type in any Google font comination separated by a pipe symbol, e.g Cardo|Source+Sans+Pro"/>
+                <field name="logoFile"
+                       class=""
+                       type="media"
+                       default=""
+                       label="Site Logo"
+                       description="Pick a site logo from the media library" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
